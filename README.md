@@ -55,7 +55,7 @@ TMDB_API_KEY=your_api_key_here
 npx expo start
 ```
 
-5. Press 'i' to open in iOS simulator or scan the QR code with your device
+5. Press 'i' to open in iOS simulator or scan the QR code with your device to open launch it in expo go.
 
 ## 📱 Usage
 
@@ -76,7 +76,42 @@ npx expo start
 
 ## 📸 Screenshots
 
-*[Screenshots will be added here]*
+
+## 📱 Screenshots
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="screenshots/Home-tab.png" width="200" alt="Home Tab"/>
+        <br />
+        <b>Home Tab</b>
+      </td>
+      <td align="center">
+        <img src="screenshots/Search-tab.png" width="200" alt="Search Tab"/>
+        <br />
+        <b>Search Tab</b>
+      </td>
+      <td align="center">
+        <img src="screenshots/Saved-tab.png" width="200" alt="Saved Tab"/>
+        <br />
+        <b>Saved Tab</b>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="screenshots/Profile-tab.png" width="200" alt="Profile Tab"/>
+        <br />
+        <b>Profile Tab</b>
+      </td>
+      <td align="center">
+        <img src="screenshots/Movie-Details-page.png" width="200" alt="Movie Details"/>
+        <br />
+        <b>Movie Details</b>
+      </td>
+    </tr>
+  </table>
+</div>
 
 
 
