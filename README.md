@@ -74,11 +74,17 @@ npx expo start
 - Tap the heart icon to save/unsave the movie
 - View saved movies in the "Saved" tab
 
+## 📸 Screenshots
+
+*[Screenshots will be added here]*
+
+
+
 ## 📁 Project Structure
 
 ```
 movietime/
-├── app/                    # Main application code
+├── app/                   # Main application code
 │   ├── (tabs)/            # Tab navigation screens
 │   │   ├── index.tsx      # Home screen
 │   │   ├── search.tsx     # Search screen
@@ -88,11 +94,11 @@ movietime/
 │   │   └── [id].tsx       # Movie details screen
 │   └── _layout.tsx        # Root layout configuration
 ├── components/            # Reusable components
-├── constants/            # App constants and assets
-├── context/             # React Context providers
-├── interfaces/          # TypeScript interfaces
-├── services/           # API and utility services
-└── assets/            # Static assets
+├── constants/             # App constants and assets
+├── context/               # React Context providers
+├── interfaces/            # TypeScript interfaces
+├── services/              # API and utility services
+└── assets/                # Static assets
 ```
 
 ## 🛠 Tech Stack
@@ -135,16 +141,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Movie trailers integration
 - User reviews and ratings
 
-## 📸 Screenshots
-
-*[Screenshots will be added here]*
-
-## 🎥 Demo
-
-*[Demo GIF will be added here]*
-
-## 📞 Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
-
-Project Link: [https://github.com/yourusername/movietime](https://github.com/yourusername/movietime)
