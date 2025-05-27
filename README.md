@@ -75,10 +75,6 @@ npx expo start
 - View saved movies in the "Saved" tab
 
 ## 📸 Screenshots
-
-
-## 📱 Screenshots
-
 <div align="center">
   <table>
     <tr>
