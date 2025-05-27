@@ -129,6 +129,18 @@ TMDB_API_KEY=your_tmdb_api_key
 
 
 
+
+## 🔮 Future Enhancements
+
+- User authentication
+- Social sharing features
+- Offline support
+- Dark mode
+- Movie trailers integration
+
+
+
+
 ## 📁 Project Structure
 
 ```
@@ -153,13 +165,3 @@ movietime/
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-## 🔮 Future Enhancements
-
-- User authentication
-- Social sharing features
-- Offline support
-- Dark mode
-- Movie trailers integration
-
