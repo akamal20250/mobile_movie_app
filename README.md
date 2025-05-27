@@ -57,15 +57,7 @@ npx expo start
 
 5. Press 'i' to open in iOS simulator or scan the QR code with your device to open launch it in expo go.
 
-## 🛠 Tech Stack
 
-- **Framework**: Expo & React Native
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS (via NativeWind)
-- **State Management**: React Context
-- **API Integration**: TMDB API
-- **Backend Services**: Appwrite
-- **Navigation**: Expo Router
 
 ## 🔧 Environment Setup
 
@@ -128,6 +120,15 @@ TMDB_API_KEY=your_tmdb_api_key
 </div>
 
 
+## 🛠 Tech Stack
+
+- **Framework**: Expo & React Native
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS (via NativeWind)
+- **State Management**: React Context
+- **API Integration**: TMDB API
+- **Backend Services**: Appwrite
+- **Navigation**: Expo Router
 
 
 ## 🔮 Future Enhancements
