@@ -9,12 +9,12 @@ const Profile = () => {
     <View className="bg-[#021659] flex-1">
       <View className="flex justify-center items-center flex-1">
         {/* Profile picture and basic info */}
-        <Image source={icons.person} className="size-40 absolute top-28 left-3"/>
+        <Image source={icons.person} className="w-40 h-40 absolute mt-20 top-10 left-4"/>
         <View className="flex-row items-center justify-center gap-x-2 absolute top-36 left-48">
           <Text className="text-white text-4xl font-bold">John Doe</Text>
         </View>
         <View className="flex-row items-center justify-center gap-x-2 absolute top-48 left-48">
-          <Text className="text-white text-lg">john.doe@example.com</Text>
+        <Text className="text-white text-lg">john.doe@example.com</Text>
         </View>
         <View className="flex-row items-center bg-[#0099FF] px-2 py-1 rounded-md gap-x-1 mt-4 absolute top-60 left-48">
           <Text className="text-white font-bold text-sm">Member Since June 2025</Text>
