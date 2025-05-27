@@ -1,50 +1,150 @@
-# Welcome to your Expo app 👋
+# MovieTime 🎬
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
+[![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Appwrite](https://img.shields.io/badge/Appwrite-0A0A0A?style=for-the-badge&logo=appwrite&logoColor=white)](https://appwrite.io/)
 
-## Get started
+A modern, feature-rich mobile application for movie enthusiasts, built with Expo and React Native. MovieTime provides a seamless experience for discovering, searching, and saving your favorite movies.
 
-1. Install dependencies
+## 🌟 Features
 
-   ```bash
-   npm install
-   ```
+- **Latest Movies**: Browse through the most recent and popular movies
+- **Detailed Movie Information**: View comprehensive details including:
+  - Movie title, poster, and release date
+  - Runtime and rating
+  - Plot synopsis
+  - Production companies
+  - Budget and revenue information
+- **Search Functionality**: Find any movie with real-time search results
+- **Save Favorites**: Save your favorite movies for quick access
+- **Modern UI/UX**: Clean, responsive interface with smooth animations
+- **Profile Section**: Personalized user profile (decorative)
 
-2. Start the app
+## 🚀 Getting Started
 
-   ```bash
-   npx expo start
-   ```
+### Prerequisites
 
-In the output, you'll find options to open the app in a
+- Node.js (v14 or higher)
+- npm or yarn
+- Expo CLI
+- iOS Simulator (for iOS development)
+- TMDB API key
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Installation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clone the repository:
 ```bash
-npm run reset-project
+git clone https://github.com/yourusername/movietime.git
+cd movietime
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies:
+```bash
+npm install
+```
 
-## Learn more
+3. Create a `.env` file in the root directory and add your TMDB API key:
+```env
+TMDB_API_KEY=your_api_key_here
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Start the development server:
+```bash
+npx expo start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+5. Press 'i' to open in iOS simulator or scan the QR code with your device
 
-## Join the community
+## 📱 Usage
 
-Join our community of developers creating universal apps.
+### Browsing Movies
+- Open the app to see the latest movies on the home screen
+- Scroll through the grid of movie posters
+- Tap any movie to view its details
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Searching Movies
+- Navigate to the search tab
+- Type the movie title in the search bar
+- Results appear in real-time as you type
+
+### Saving Movies
+- Open any movie's details
+- Tap the heart icon to save/unsave the movie
+- View saved movies in the "Saved" tab
+
+## 📁 Project Structure
+
+```
+movietime/
+├── app/                    # Main application code
+│   ├── (tabs)/            # Tab navigation screens
+│   │   ├── index.tsx      # Home screen
+│   │   ├── search.tsx     # Search screen
+│   │   ├── saved.tsx      # Saved movies screen
+│   │   └── profile.tsx    # Profile screen
+│   ├── movies/            # Movie-related screens
+│   │   └── [id].tsx       # Movie details screen
+│   └── _layout.tsx        # Root layout configuration
+├── components/            # Reusable components
+├── constants/            # App constants and assets
+├── context/             # React Context providers
+├── interfaces/          # TypeScript interfaces
+├── services/           # API and utility services
+└── assets/            # Static assets
+```
+
+## 🛠 Tech Stack
+
+- **Framework**: Expo & React Native
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS (via NativeWind)
+- **State Management**: React Context
+- **API Integration**: TMDB API
+- **Backend Services**: Appwrite
+- **Navigation**: Expo Router
+
+## 🔧 Environment Setup
+
+Required environment variables:
+```env
+TMDB_API_KEY=your_tmdb_api_key
+```
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 🔮 Future Enhancements
+
+- User authentication
+- Movie recommendations
+- Watchlist functionality
+- Social sharing features
+- Offline support
+- Dark mode
+- Movie trailers integration
+- User reviews and ratings
+
+## 📸 Screenshots
+
+*[Screenshots will be added here]*
+
+## 🎥 Demo
+
+*[Demo GIF will be added here]*
+
+## 📞 Contact
+
+Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
+
+Project Link: [https://github.com/yourusername/movietime](https://github.com/yourusername/movietime)

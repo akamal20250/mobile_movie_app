@@ -1,29 +1,22 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { useFonts } from 'expo-font';
-import { Stack } from 'expo-router';
-import { StatusBar } from 'expo-status-bar';
-import 'react-native-reanimated';
-
-import { useColorScheme } from '@/hooks/useColorScheme';
+// Root layout component that wraps the entire app
+// Provides the SavedMoviesContext to all child components
+import { SavedMoviesProvider } from "@/context/SavedMoviesContext";
+import { Stack } from "expo-router";
+import "./globals.css";
 
 export default function RootLayout() {
-  const colorScheme = useColorScheme();
-  const [loaded] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
-  });
-
-  if (!loaded) {
-    // Async font loading only occurs in development.
-    return null;
-  }
-
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+    <SavedMoviesProvider>
       <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="+not-found" />
+        <Stack.Screen 
+          name="(tabs)"
+          options={{headerShown: false}}
+        />
+        <Stack.Screen 
+          name="movies/[id]"
+          options={{headerShown: false}}
+        />
       </Stack>
-      <StatusBar style="auto" />
-    </ThemeProvider>
+    </SavedMoviesProvider>
   );
 }
