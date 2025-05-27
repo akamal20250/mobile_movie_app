@@ -83,29 +83,29 @@ npx expo start
   <table>
     <tr>
       <td align="center">
-        <img src="screenshots/Home-tab.png" width="200" alt="Home Tab"/>
+        <img src="screenshots/Home-tab.PNG" width="200" alt="Home Tab"/>
         <br />
         <b>Home Tab</b>
       </td>
       <td align="center">
-        <img src="screenshots/Search-tab.png" width="200" alt="Search Tab"/>
+        <img src="screenshots/Search-tab.PNG" width="200" alt="Search Tab"/>
         <br />
         <b>Search Tab</b>
       </td>
       <td align="center">
-        <img src="screenshots/Saved-tab.png" width="200" alt="Saved Tab"/>
+        <img src="screenshots/Saved-tab.PNG" width="200" alt="Saved Tab"/>
         <br />
         <b>Saved Tab</b>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="screenshots/Profile-tab.png" width="200" alt="Profile Tab"/>
+        <img src="screenshots/Profile-tab.PNG" width="200" alt="Profile Tab"/>
         <br />
         <b>Profile Tab</b>
       </td>
       <td align="center">
-        <img src="screenshots/Movie-Details-page.png" width="200" alt="Movie Details"/>
+        <img src="screenshots/Movie-Details-page.PNG" width="200" alt="Movie Details"/>
         <br />
         <b>Movie Details</b>
       </td>
